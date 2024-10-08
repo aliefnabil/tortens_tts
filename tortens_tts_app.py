@@ -10,21 +10,9 @@ st.markdown("""
     [data-testid="stHeader"] {
         background-color: #FDEACD;
     }
-            
+    
     [data-testid="stAppViewContainer"] {
         background-color: #FDEACD;
-    }
-    
-    [data-testid="stTextInput"] {
-        background-color: #5E4014;
-    }
-
-    [data-testid="stAudio"] {
-        background-color: #5E4014;
-    }
-                  
-    [data-testid="stDownloadButton"] {
-        background-color: #5E4014;
     }
              
     /* Change font for st.title */
