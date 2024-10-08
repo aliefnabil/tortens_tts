@@ -87,7 +87,7 @@ if not st.session_state['name_entered']:
                         audio_file.write(chunk)
 
             # Play audio in Streamlit
-            st.audio("output.mp3", format="audio/mp3")
+            st.audio("output.mp3", format="audio/mpeg")
 
             # Optionally provide a download link
             with open("output.mp3", "rb") as audio_file:
