@@ -7,12 +7,24 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
     
     /* Change background color */
+    [data-testid="stHeader"] {
+        background-color: #FDEACD;
+    }
+            
     [data-testid="stAppViewContainer"] {
         background-color: #FDEACD;
     }
+    
+    [data-testid="stTextInput"] {
+        background-color: #5E4014;
+    }
 
-    [data-testid="stHeader"] {
-        background-color: #FDEACD;
+    [data-testid="stAudio"] {
+        background-color: #5E4014;
+    }
+                  
+    [data-testid="stDownloadButton"] {
+        background-color: #5E4014;
     }
              
     /* Change font for st.title */
