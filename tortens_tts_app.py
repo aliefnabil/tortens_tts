@@ -97,7 +97,7 @@ if not st.session_state['name_entered']:
             st.write("Bantu sebarkan Pesan Ibu melalui Instagram dan tag kami [@tortens.s](%s)" % url)
     
         else:
-            st.error("Gagal mengeluarkan suara. Tolong coba lagi.")
+            st.error(f"Error from Eleven Labs: {response.status_code} - {response.text}")
 
 else:
     # If the user tries to input the name again, show a pop-up message
