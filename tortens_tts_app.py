@@ -35,7 +35,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # Eleven Labs API key and voice settings
-API_KEY = "sk_eaf66e4fff574b730fca863f5cb9ac7d072d3b092a385450"
+API_KEY = st.secrets["elevenlabs"]["api_key"]
 VOICE_ID = "XB0fDUnXU5powFXDhCwa"  # Replace with your specific voice ID
 
 # Initialize session state to track whether the name has been entered
