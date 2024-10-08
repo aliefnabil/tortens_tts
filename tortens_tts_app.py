@@ -7,10 +7,14 @@ st.markdown("""
     @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet');
     
     /* Change background color */
-    body {
+    [data-testid="stAppViewContainer"] {
         background-color: #FDEACD;
     }
-      
+
+    [data-testid="stHeader"] {
+        background-color: #FDEACD;
+    }
+             
     /* Change font for st.title */
     h1 {
         font-family: "IBM Plex Serif", serif;
@@ -24,6 +28,7 @@ st.markdown("""
         font-family: "IBM Plex Serif", serif;
         font-weight: 400;
         font-style: normal;
+        color: #FF3131;
     }
             
     </style>
