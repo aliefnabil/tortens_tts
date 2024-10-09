@@ -34,6 +34,8 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
+st.image(image='./banner_tortens.png')
+
 # Eleven Labs API key and voice settings
 API_KEY = st.secrets["elevenlabs"]["api_key"]
 VOICE_ID = "XB0fDUnXU5powFXDhCwa"  # Replace with your specific voice ID
