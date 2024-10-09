@@ -14,6 +14,10 @@ st.markdown("""
     [data-testid="stAppViewContainer"] {
         background-color: #FDEACD;
     }
+    
+    [data-testid="baseButton-secondary"] {
+        background: #48854E;
+    }
              
     /* Change font for st.title */
     h1 {
